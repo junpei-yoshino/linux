@@ -1234,6 +1234,8 @@ static s64 imx290_check_link_freqs(const struct imx290 *imx290,
 static const struct of_device_id imx290_of_match[] = {
 	{ .compatible = "sony,imx290", .data = imx290_colour_formats },
 	{ .compatible = "sony,imx290-mono", .data = imx290_mono_formats },
+	{ .compatible = "sony,imx327", .data = imx290_colour_formats },
+	{ .compatible = "sony,imx327-mono", .data = imx290_mono_formats },
 	{ /* sentinel */ }
 };
 
